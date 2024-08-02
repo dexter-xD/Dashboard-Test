@@ -3,6 +3,7 @@ import daisyui, { Config as DaisyuiConfig } from 'daisyui';
 
 export default {
   content: ['./src/www/**/*.{html,js,jsx,ts,tsx,md,mdx}'],
+  darkMode: ['class', '[data-theme="dark"]'],
   theme: {
     extend: {},
   },

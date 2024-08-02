@@ -6,13 +6,13 @@ import User from './User';
 const Header = () => {
   return (
     <nav class='my-3 flex w-full items-center justify-between gap-3'>
-      <Brand class='hidden xl:flex' />
+      {/* <Brand class='sm:hidden xl:flex' /> */}
 
       <LeftMenu class='xl:hidden'>
         <Brand />
       </LeftMenu>
 
-      <div class='flex items-center gap-6'>
+      <div class='ml-auto flex items-center gap-6'>
         <label class='input input-bordered flex h-10 items-center gap-2 rounded-md'>
           <input type='text' class='grow' placeholder='Search' />
           <svg

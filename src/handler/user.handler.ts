@@ -15,6 +15,7 @@ export const createUserHandler = async (c: Context) => {
   const { success, data: parsedBody, error } = createUserSchema.safeParse(body);
 
   if (!success || !parsedBody) {
+    console.log(error)
     return c.html(
       CreateUserForm({
         error,
