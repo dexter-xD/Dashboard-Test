@@ -8,7 +8,6 @@ const b = () =>
     outfile: './dist/index.cjs',
     format: 'cjs',
     tsconfig: 'tsconfig.json',
-    jsx: 'automatic',
   });
 
 Promise.all([b()]);
